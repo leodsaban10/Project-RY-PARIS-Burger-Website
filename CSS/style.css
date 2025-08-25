@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background: #fff;
+}
+
+.header {
+	background: #ffa646;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0px 10px 20px;
+	height: 90px;
+    position: relative;
+}
+.nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 700px;
+}
