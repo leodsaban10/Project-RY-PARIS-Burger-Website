@@ -9,17 +9,21 @@ body {
 
 .header {
 	background: #ffa646;
-	display: flex;
+	display: inline-block;
+    margin-bottom: 2px;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 0px 10px 20px;
 	height: 90px;
-    position: relative;
+    width: 100%;
+    flex-wrap: nowrap;
 }
 .nav {
   display: flex;
   gap: 32px;
   align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  
 }
 .nav a {
   text-decoration: none;
@@ -27,10 +31,39 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   transition: color 0.2s;
-  white-space: nowrap;
 }
 .logo {
     display: flex;
     align-items: center;
-    gap: 700px;
+    gap: 1000px;
+    padding: 0px 50px;
 }
+.logo-image {
+    width: 150px;
+    height: auto;
+    background-image: url('../IMAGES/ryparis-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mainpage-image {
+    background-color: blue;
+    background-image: url('../IMAGES/hero-image.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 50px;
+} 
+
+ .hero-text {
+    display: flex;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+ }
