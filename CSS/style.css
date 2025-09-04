@@ -189,3 +189,32 @@ body {
   background-size: cover;
   background-position: center;
 }
+.footer-container {
+  background: #ffa646;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px 50px 40px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.footer-left {
+  color: #111;
+  font-size: 1.1rem;
+}
+
+.footer-right {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-right a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: text-decoration 0.2s;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
